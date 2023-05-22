@@ -1,0 +1,34 @@
+{
+  "category": [
+    {
+      "title": "",
+      "items": [
+        0
+      ],
+      "details": [
+        [
+          0
+        ]
+      ]
+    }
+  ],
+  "detail_categories": [
+    {
+      "name": "",
+      "details": [
+        {
+          "name": "",
+          "price": ""
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "name": "",
+      "price": "",
+      "image": "",
+      "description": ""
+    }
+  ]
+}
