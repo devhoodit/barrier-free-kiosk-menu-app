@@ -1,11 +1,15 @@
 {
   "category": [
     {
-      "title": "",
+      "title": "sadf",
       "items": [
-        0
+        0,
+        1
       ],
       "details": [
+        [
+          0
+        ],
         [
           0
         ]
@@ -14,21 +18,31 @@
   ],
   "detail_categories": [
     {
-      "name": "",
+      "name": "ghj",
       "details": [
         {
-          "name": "",
-          "price": ""
+          "name": "ghj",
+          "price": "ghj"
+        },
+        {
+          "name": "hjg",
+          "price": "jgh"
         }
       ]
     }
   ],
   "items": [
     {
-      "name": "",
-      "price": "",
-      "image": "",
-      "description": ""
+      "name": "asdf",
+      "price": "asdf",
+      "image": "g",
+      "description": "hhjg"
+    },
+    {
+      "name": "gjh",
+      "price": "hjg",
+      "image": "ghj",
+      "description": "ghj"
     }
   ]
 }

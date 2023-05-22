@@ -1,5 +1,6 @@
 const { app, BrowserWindow, ipcMain } = require('electron')
 let fs = require('fs')
+const path = require("path");
 
 const createWindow = () => {
     const win = new BrowserWindow({
@@ -25,8 +26,8 @@ app.whenReady().then(() => {
     ipcMain.on('dataflow', (evt, payload) => {
         try {
             var output = parseConfigData(payload)
-            fs.writeFileSync('output.json', JSON.stringify(output))
-            
+            fs.writeFileSync(path.join(app.getPath("exe"),
+                'output.json'), JSON.stringify(output))
         } catch (error) {
         }
     })
