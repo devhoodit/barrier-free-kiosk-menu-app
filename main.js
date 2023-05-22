@@ -26,8 +26,8 @@ app.whenReady().then(() => {
     ipcMain.on('dataflow', (evt, payload) => {
         try {
             var output = parseConfigData(payload)
-            fs.writeFileSync(path.join(app.getPath("exe"),
-                'output.json'), JSON.stringify(output))
+            fs.writeFileSync(path.join(path.dirname(app.getPath("exe")),
+            'output.json'), JSON.stringify(output))
         } catch (error) {
         }
     })
